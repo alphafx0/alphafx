@@ -13,7 +13,7 @@ function sendMail() {
           document.getElementById("email").value = "";
           document.getElementById("message").value = "";
           console.log(res);
-          alert(" Success; Your Trading have started , Your Payout will reflect in Your M-pesa Number  after a successfull Trade.  You will get paid to Your M-pesa Number  when your M-pesa Message Completes Verification ⚠")
+          alert(" Success; Your Trading have started , Your Payout will reflect in Your M-pesa Number  after a successfull Trade.  You will get paid to Your M-pesa Number  when your M-pesa Message Completes Verification ⚠ Verification takes 2 Working Days")
   
       })
       .catch(err=>console.log(err));
